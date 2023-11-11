@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeGen</title>
+
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ 
+  <!--
+    <script src="../static/js/main.js" defer></script>
+
+  <script src="https://kit.fontawesome.com/98a4884448.js" crossorigin="anonymous"></script> 
+  -->
+  
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="main.js" defer></script>
+
+</head>
+
+<body>
+
+  <!--Left Block-->
+
+  <div class="rectangle-1"></div>
+      <!--New Chat Box-->
+      <div id="new-chat">
+        <!--Plus Sign-->
+        <div class="plus-sign">
+          <svg
+          class="plus-sign"
+          width="30"
+          height="30"
+          viewBox="0 0 30 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          >
+          <rect x="10" y="18" width="20" height="2" style="fill: #ffffff;" />
+           <rect x="19" y="10" width="2" height="20" style="fill: #ffffff;" />
+          </svg>
+          <!--New Chat Text-->
+          <p id="new-chat-text">New Chat</p>
+        </div>
+      </div>
+        <!--Folder Image-->
+        <div class="folder">
+          <svg
+            class="folder"
+            width="45"
+            height="40"
+            viewBox="0 0 50 50"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+              d="M29 44.3333H12.0833C9.41396 44.3333 7.25 42.244 7.25 39.6666V16.3333C7.25 13.756 9.41396 11.6666 12.0833 11.6666H23.1657C23.8066 11.6666 24.4214 11.9125 24.8745 12.35L29 16.3333H45.9167C48.5861 16.3333 50.75 18.4226 50.75 21V25.6666"
+              stroke="white"
+              stroke-width="4.16667"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M43.5 32.6666V39.6666M43.5 39.6666V46.6666M43.5 39.6666H36.25M43.5 39.6666H50.75"
+              stroke="white"
+              stroke-width="4.16667"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+     </div>
+
+     <!--Folder Section-->
+     <div class="new-folder">
+      <!--Folder Image-->
+      <div class="folder-img">
+        <svg
+            class="vector"
+            width="37"
+            height="30"
+            viewBox="0 0 37 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+              d="M2.41304 0.346436C1.08943 0.346436 0 1.27794 0 2.40798V8.59262V15.4644V27.1465C0 28.2766 1.08943 29.2081 2.41304 29.2081H34.587C35.9102 29.2081 37 28.277 37 27.1465V15.4644V8.59262V5.15671C37 4.02625 35.9102 3.09516 34.587 3.09516H12.8696C12.9392 3.09516 12.8446 3.09541 12.6481 2.90189C12.4515 2.70837 12.2095 2.38733 11.9568 2.04292C11.7041 1.69851 11.4393 1.33102 11.1053 1.00812C10.7714 0.68521 10.3107 0.346436 9.65217 0.346436H2.41304ZM2.41304 1.7208H9.65217C9.60331 1.7208 9.70135 1.72562 9.90039 1.9181C10.0994 2.11058 10.3417 2.43027 10.5932 2.77305C10.8447 3.11582 11.1052 3.48195 11.4321 3.80382C11.759 4.12569 12.2091 4.46953 12.8696 4.46953H34.587C35.0398 4.46953 35.3913 4.76987 35.3913 5.15671V6.65992C35.138 6.58188 34.87 6.53107 34.587 6.53107H2.41304C2.13004 6.53107 1.86198 6.58188 1.6087 6.65992V2.40798C1.6087 2.02073 1.95905 1.7208 2.41304 1.7208ZM2.41304 7.90544H34.587C35.0414 7.90544 35.3913 8.20434 35.3913 8.59262V15.4644V27.1465C35.3913 27.5334 35.0398 27.8337 34.587 27.8337H2.41304C1.95905 27.8337 1.6087 27.5338 1.6087 27.1465V15.4644V8.59262C1.6087 8.20434 1.95856 7.90544 2.41304 7.90544Z"
+              fill="#F0F0F0"
+            />
+         </svg>
+         <p id = "new-folder-text">Folder</p>
+	        <!--Folder Edit-->
+          <div class="folder-edit">
+            <!--Edit Pen-->
+            <svg
+                class="folder-edit"
+                width="15"
+                height="25"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                  d="M11.8274 0.549432C12.1759 0.202561 12.6486 0.00769043 13.1415 0.00769043C13.3856 0.00769043 13.6272 0.0555324 13.8527 0.148485C14.0782 0.241437 14.2831 0.377679 14.4557 0.549432C14.6282 0.721186 14.7651 0.925087 14.8585 1.14949C14.9519 1.3739 15 1.61442 15 1.85731C15 2.10021 14.9519 2.34073 14.8585 2.56513C14.7651 2.78954 14.6282 2.99344 14.4557 3.1652L8.98003 8.6147L3.5044 14.0642L0 14.9361L0.876101 11.4484L6.35173 5.99894L11.8274 0.549432Z"
+                  stroke="#FBEDED"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+            </svg>
+          </div>
+	        <div class="folder-delete">
+              <!--Folder Delete-->
+              <svg
+                  class="folder-delete"
+                  width="16"
+                  height="25"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                 >
+                  <path
+                    d="M2 4.25H3.33333H14"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.6667 4.24996V14.1666C12.6667 14.5424 12.5262 14.9027 12.2762 15.1684C12.0261 15.434 11.687 15.5833 11.3334 15.5833H4.66671C4.31309 15.5833 3.97395 15.434 3.7239 15.1684C3.47385 14.9027 3.33337 14.5424 3.33337 14.1666V4.24996M5.33337 4.24996V2.83329C5.33337 2.45757 5.47385 2.09723 5.7239 1.83156C5.97395 1.56588 6.31309 1.41663 6.66671 1.41663H9.33337C9.687 1.41663 10.0261 1.56588 10.2762 1.83156C10.5262 2.09723 10.6667 2.45757 10.6667 2.83329V4.24996"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />  
+                  <path
+                    d="M6.66663 7.79163V12.0416"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.33337 7.79163V12.0416"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+        </div>
+	    </div>
+    </div>
+     <!--Chat History-->
+    <div class="history-container"></div>
+      <div id = "chat-history">
+      </div>
+    
+      <!--Footer-->
+    <div class="footer">
+      <!--User Account-->
+      <div class="account">
+        <!--Sign Out Logo-->
+        <div class="sign-out">
+          <div class="capa-1">
+            <div class="group">
+              <svg
+                class="sign-out"
+                width="22"
+                height="19"
+                viewBox="0 0 22 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.3125 17.8126H1.37502V1.18759H10.3125C10.692 1.18759 11 0.921568 11 0.593855C11 0.266142 10.6919 0.00012207 10.3125 0.00012207H0.68748C0.308023 0.00012207 0 0.266093 0 0.593855V18.4063C0 18.7341 0.308023 19 0.68748 19H10.3124C10.6919 19 10.9999 18.734 10.9999 18.4063C11 18.0785 10.6919 17.8126 10.3125 17.8126Z"
+                  fill="white"
+                />
+                <path
+                  d="M21.8005 9.08553L17.0568 4.92989C16.788 4.69536 16.3528 4.69595 16.0847 4.92989C15.8159 5.16383 15.8159 5.54381 16.0847 5.77775L19.6597 8.90977H5.50206C5.12254 8.90977 4.81458 9.17816 4.81458 9.50948C4.81458 9.8408 5.1226 10.1092 5.50206 10.1092H19.6597L16.0847 13.2412C15.8159 13.4757 15.8159 13.8551 16.0847 14.0891C16.3535 14.3236 16.7887 14.3236 17.0568 14.0891L21.7999 9.93343C22.0652 9.70246 22.068 9.31591 21.8005 9.08553Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div> 
+</div>
+  
+  <!--Typing container-->
+  <div class="typing-container">
+    <div class="typing-content">
+      <div class="typing-textarea">
+        <textarea id="chat-input" spellcheck="false" placeholder="Enter a prompt here" required style="overflow:hidden"></textarea>
+
+        <span id="send-btn">
+          <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.715001 1.45379C0.714918 1.23796 0.778763 1.0258 0.900319 0.837946C1.02188 0.650097 1.19701 0.492956 1.40866 0.381825C1.62031 0.270693 1.86127 0.209356 2.10809 0.203786C2.35491 0.198216 2.59917 0.248601 2.8171 0.350036L21.2184 8.89627C21.4474 9.00277 21.6392 9.16177 21.7729 9.35619C21.9065 9.5506 21.9771 9.77319 21.9771 10C21.9771 10.2269 21.9065 10.4494 21.7729 10.6439C21.6392 10.8384 21.4474 10.9973 21.2184 11.1038L2.81567 19.65C2.59768 19.7512 2.35344 19.8014 2.10671 19.7956C1.85998 19.7899 1.61916 19.7283 1.40767 19.6171C1.19619 19.5059 1.02126 19.3486 0.89987 19.1608C0.778493 18.9729 0.714803 18.7608 0.715001 18.545V12.9125C0.714976 12.6209 0.831606 12.3384 1.0447 12.114C1.2578 11.8897 1.55395 11.7374 1.88188 11.6838L12.155 10L1.88188 8.31629C1.55395 8.26263 1.2578 8.11042 1.0447 7.88603C0.831606 7.66164 0.714976 7.37917 0.715001 7.08754V1.45379Z" fill="white"/>
+            </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+  
+  <!--Right Block-->
+  <div class="rectangle-2">
+
+      <!--Model Selection-->
+      <div class="model-selection-container">
+          <select id="model-selection" class="no-arrow">
+            <option value="instruct_model">Instruct Model</option>
+            <option value="codegen_model">CodeGen Model</option>
+          </select>
+          <!--Down Arrow-->
+        </div>
+  </div>
+</body>
+</html>
